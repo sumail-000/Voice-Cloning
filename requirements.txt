@@ -1,0 +1,10 @@
+# Python dependencies for the XTTS voice cloning demo and Flask API
+# System dependency: ffmpeg must be installed and available on PATH for recorded WEBM/MP4/M4A conversion to WAV.
+#   Windows examples: choco install ffmpeg  OR  winget install Gyan.FFmpeg
+
+Flask
+TTS
+torch
+torchaudio
+jieba
+imageio-ffmpeg
